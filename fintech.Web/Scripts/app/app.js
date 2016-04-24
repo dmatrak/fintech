@@ -13,6 +13,10 @@
             templateUrl: '../scripts/app/needs/needs.html',
             controller: 'needsCtrl'
         }).
+        when('/needs/:uniqId', {
+            templateUrl: '../scripts/app/needs/needDetails.html',
+            controller: 'needDetailsCtrl'
+        }).
         when('/referrals', {
             templateUrl: '../scripts/app/referrals/referrals.html',
             controller: 'referralsCtrl'

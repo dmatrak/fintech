@@ -1,4 +1,4 @@
-﻿app.controller("needsCtrl", function ($scope, pollDataHttp, $interval) {
+﻿app.controller("needsCtrl", function ($scope, pollDataHttp, $interval,$location) {
 
     $scope.categories = [
         {
@@ -34,6 +34,7 @@
                 var startDate = new Date();
                 endDate.setMinutes(startDate.getMinutes() + 1);
                 $scope.currentPolls = [{
+                    uniqId:100,
                     catId: 3,
                     owner: "Mitsos",
                     startDate: startDate,
@@ -42,6 +43,7 @@
                     imgUrl: "../Content/tempImages/temp1.jpg"
                 },
                 {
+                    uniqId: 200,
                     catId: 1,
                     owner: "Maria",
                     startDate: new Date(),
@@ -50,6 +52,7 @@
                     imgUrl: "../Content/tempImages/temp2.jpg"
                 },
                  {
+                     uniqId: 300,
                      catId: 1,
                      owner: "Maria",
                      startDate: new Date(),
@@ -109,4 +112,10 @@
         }
     })
 
+    $scope.goToNeed=function(uniqId){
+        $location.url("/needs/" + uniqId);
+    }
+    $scope.goToProdCat=function(id){
+        $location.url("/brands/" + id);
+    }
 });

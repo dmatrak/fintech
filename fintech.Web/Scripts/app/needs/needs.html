@@ -2,10 +2,10 @@
     <div class="row current-polls">
         <div style="padding:0 10px">Current Polls</div>
         <ul class="cp-list">
-            <li ng-repeat="cpItem in currentPolls" ng-if="currentPolls">
+            <li ng-repeat="cpItem in currentPolls" ng-if="currentPolls" ng-click="goToNeed(cpItem.uniqId)">
                 <div class="cp-item">
                     <div class="cp-prof col-xs-2">
-                        <img class="cpp-pic" ng-src="cpItem.profPicUrl" />
+                        <img class="cpp-pic" ng-src="{{cpItem.profPicUrl}}" />
                     </div>
                     <span class="col-xs-6" style="margin-top:10px;">
                         {{cpItem.owner}}'s Poll
@@ -19,7 +19,7 @@
     <div class="row">
         <ul class="poll-list">
             <li ng-repeat="poll in pollsPerCategory">
-                <div class="pl-item" ng-click="goToProdat(poll.id)">
+                <div class="pl-item" ng-click="goToProdCat(poll.id)">
                     <i class="icn pull-left" ng-class="{'fashion':poll.id===1,'travel':poll.id===2,'technology':poll.id===3,'fd':poll.id===4}"></i>
                     <span class="col-xs-7 pli-text">{{poll.title}}</span>
                     <span class="col-xs-2 pull-right pli-text">{{poll.total}}</span>

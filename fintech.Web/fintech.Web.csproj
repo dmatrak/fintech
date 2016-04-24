@@ -203,9 +203,12 @@
     </Content>
     <Content Include="Content\needs\images\air.jpg" />
     <Content Include="Content\needs\images\clothes.jpg" />
+    <Content Include="Content\needs\images\favorite.svg" />
     <Content Include="Content\needs\images\food.png" />
     <Content Include="Content\needs\images\insurance.jpg" />
     <Content Include="Content\needs\images\technology.jpg" />
+    <Content Include="Content\needs\images\thumb_down.svg" />
+    <Content Include="Content\needs\images\thumb_up.svg" />
     <Content Include="Content\needs\needs.css">
       <DependentUpon>needs.less</DependentUpon>
     </Content>
@@ -228,9 +231,12 @@
     <Content Include="Scripts\app\index\directives\poll.js" />
     <Content Include="Scripts\app\index\index.html" />
     <Content Include="Scripts\app\index\indexCtrl.js" />
+    <Content Include="Scripts\app\needs\needDetails.html" />
+    <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
     <Content Include="Scripts\app\services\pollDataHttp.js" />
     <Content Include="Scripts\app\needs\needs.html" />
     <Content Include="Scripts\app\needs\needsCtrl.js" />
+    <Content Include="Scripts\app\services\userProfile.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\angular.min.js.map" />

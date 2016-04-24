@@ -37,13 +37,16 @@
             color: black;
             background-color: white;
             box-shadow: black 0 1px 4px;
-            .pli-text{
-                margin-top:calc(~"10% - 10px");
+
+            .pli-text {
+                margin-top: 25px;
             }
+
             .icn {
-                width:7vh;
-                height:7vh;
-                margin-top:10px;
+                width: 7vh;
+                height: 7vh;
+                margin-top: 10px;
+
                 &.fashion {
                     background-image: url('images/clothes.jpg');
                 }
@@ -59,6 +62,69 @@
                 &.fd {
                     background-image: url('images/food.png');
                 }
+            }
+        }
+    }
+}
+
+.needs-details {
+    background-color: #3C9083;
+
+    .d-header {
+        height: 10vh;
+        padding: 5px;
+        color: black;
+        background-color: white;
+    }
+
+    .details-item {
+        margin-top:5px;
+        text-align: center;
+        background-color: white;
+
+        .di-image {
+            width: 46vh;
+            height: 46vh;
+        }
+    }
+
+    .details-message {
+        margin-top:5px;
+        padding: 5px;
+        color: black;
+        background-color: white;
+
+        .d-prof {
+            margin-top: 10px;
+        }
+    }
+
+    .details-actions {
+        margin-top:5px;
+        text-align: center;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+
+        .icn {
+            &.thumbs-up {
+                background-image: url('images/thumb_up.svg');
+                width:8vh;
+                height:8vh;
+            }
+
+            &.thumbs-down {
+                background-image: url('images/thumb_down.svg');
+                width:8vh;
+                height:8vh;
+            }
+
+            &.wishlist {
+                background-image: url('images/favorite.svg');
+                width:8vh;
+                height:8vh;
             }
         }
     }

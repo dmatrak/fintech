@@ -34,7 +34,7 @@
   box-shadow: black 0 1px 4px;
 }
 .needs .poll-list .pl-item .pli-text {
-  margin-top: calc(10% - 10px);
+  margin-top: 25px;
 }
 .needs .poll-list .pl-item .icn {
   width: 7vh;
@@ -52,4 +52,55 @@
 }
 .needs .poll-list .pl-item .icn.fd {
   background-image: url('images/food.png');
+}
+.needs-details {
+  background-color: #3C9083;
+}
+.needs-details .d-header {
+  height: 10vh;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+.needs-details .details-item {
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+}
+.needs-details .details-item .di-image {
+  width: 46vh;
+  height: 46vh;
+}
+.needs-details .details-message {
+  margin-top: 5px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+.needs-details .details-message .d-prof {
+  margin-top: 10px;
+}
+.needs-details .details-actions {
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.needs-details .details-actions .icn.thumbs-up {
+  background-image: url('images/thumb_up.svg');
+  width: 8vh;
+  height: 8vh;
+}
+.needs-details .details-actions .icn.thumbs-down {
+  background-image: url('images/thumb_down.svg');
+  width: 8vh;
+  height: 8vh;
+}
+.needs-details .details-actions .icn.wishlist {
+  background-image: url('images/favorite.svg');
+  width: 8vh;
+  height: 8vh;
 }

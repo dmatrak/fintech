@@ -32,9 +32,11 @@ namespace fintech.Web
                 .Include("~/Scripts/underscore.js")
                 .Include("~/Scripts/app/app.js")
                 .Include("~/Scripts/app/services/pollDataHttp.js")
+                .Include("~/Scripts/app/services/userProfile.js")
                 .Include("~/Scripts/app/index/indexCtrl.js")
                 .Include("~/Scripts/app/index/directives/poll.js")
                 .Include("~/Scripts/app/needs/needsCtrl.js")
+                .Include("~/Scripts/app/needs/needDetailsCtrl.js")
                 );
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
