@@ -222,6 +222,7 @@
     </Content>
     <Content Include="Content\nice.PNG" />
     <Content Include="Content\scan_QR.jpg" />
+    <Content Include="Content\sendReferral.PNG" />
     <Content Include="Content\social.PNG" />
     <Content Include="Content\tempImages\temp1.jpg" />
     <Content Include="Content\tempImages\temp2.jpg" />
@@ -245,6 +246,8 @@
     <Content Include="Scripts\app\brands\brandsMerchantsDetailCtrl.js" />
     <Content Include="Scripts\app\camera\camera.html" />
     <Content Include="Scripts\app\camera\camera.js" />
+    <Content Include="Scripts\app\camera\send.html" />
+    <Content Include="Scripts\app\camera\send.js" />
     <Content Include="Scripts\app\index\directives\poll.html" />
     <Content Include="Scripts\app\index\directives\poll.js" />
     <Content Include="Scripts\app\index\index.html" />
@@ -341,6 +344,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Scripts\app\index\filters\" />
+    <Folder Include="Scripts\app\receipt\" />
     <Folder Include="Views\ReferraApi\" />
   </ItemGroup>
   <ItemGroup>

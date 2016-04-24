@@ -1,3 +1,5 @@
 ﻿app.controller("cameraCtrl", function($scope,$location) {
-    $scope.goTo= function() {}
+    $scope.goToSend= function() {
+        $location.url("/send")
+    }
 })

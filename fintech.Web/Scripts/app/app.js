@@ -63,6 +63,10 @@
             templateUrl: '../scripts/app/profile/profile.html',
             controller: 'profileCtrl'
         }).
+        when('/send', {
+            templateUrl: '../scripts/app/camera/send.html',
+            controller: 'sendCtrl'
+        }).
         when('/camera', {
             templateUrl: '../scripts/app/camera/camera.html',
             controller: 'cameraCtrl'
