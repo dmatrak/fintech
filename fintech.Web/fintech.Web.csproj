@@ -188,9 +188,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Capture.PNG" />
+    <Content Include="Content\fb.gif" />
     <Content Include="Content\index\images\account_white.svg" />
     <Content Include="Content\index\images\camera_white.svg" />
     <Content Include="Content\index\images\explore_white.svg" />
+    <Content Include="Content\index\images\foto_goves.jpg" />
     <Content Include="Content\index\images\globe.svg" />
     <Content Include="Content\index\images\home_white.svg" />
     <Content Include="Content\index\images\logotypo_arxikh_bar.png" />
@@ -206,6 +208,7 @@
     </Content>
     <Content Include="Content\merchantDetails.PNG" />
     <Content Include="Content\merchants.PNG" />
+    <Content Include="Content\meta_to_eshop.jpg" />
     <Content Include="Content\needs\images\air.jpg" />
     <Content Include="Content\needs\images\clothes.jpg" />
     <Content Include="Content\needs\images\favorite.svg" />
@@ -228,6 +231,7 @@
     <Content Include="Content\tempImages\temp2.jpg" />
     <Content Include="Content\tempImages\yolo.JPG" />
     <Content Include="Content\Untitled.png" />
+    <Content Include="Content\yolo.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -257,6 +261,8 @@
     <Content Include="Scripts\app\needs\myNeeds.html" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
+    <Content Include="Scripts\app\receipt\receipt.html" />
+    <Content Include="Scripts\app\receipt\receiptCtrl.js" />
     <Content Include="Scripts\app\referral\checkout.js" />
     <Content Include="Scripts\app\referral\checkout.html" />
     <Content Include="Scripts\app\referral\referralDetail.html" />
@@ -344,7 +350,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Scripts\app\index\filters\" />
-    <Folder Include="Scripts\app\receipt\" />
     <Folder Include="Views\ReferraApi\" />
   </ItemGroup>
   <ItemGroup>

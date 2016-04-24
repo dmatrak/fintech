@@ -33,6 +33,9 @@
              templateUrl: '../scripts/app/referral/checkout.html',
              controller: 'checkout'
          }).
+        when('/receipt', {
+            templateUrl: '../scripts/app/receipt/receipt.html'
+        }).
         when('/brands', {
             templateUrl: '../scripts/app/brands/brands.html',
             controller: 'brandsCtrl'
