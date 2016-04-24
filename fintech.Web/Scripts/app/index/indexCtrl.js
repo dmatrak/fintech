@@ -23,5 +23,6 @@
     $scope.goTo = function (section) {
         $location.url("/" + section);
     }
+   
 
 })

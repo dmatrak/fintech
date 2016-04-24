@@ -4,7 +4,7 @@
             pollData: "="
         },
         restrict: "EA",
-        replace: true,
+        replace: false,
         templateUrl: "../scripts/app/index/directives/poll.html",
         controller: ["$scope", pollCtrl]
     };

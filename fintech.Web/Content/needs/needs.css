@@ -24,8 +24,7 @@
   list-style: none;
   padding: 0;
   height: 54vh;
-  overflow: auto;
-}
+ }
 .needs .poll-list .pl-item {
   height: 13vh;
   padding: 5px;

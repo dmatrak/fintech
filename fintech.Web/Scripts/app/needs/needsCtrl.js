@@ -1,4 +1,15 @@
-﻿app.controller("needsCtrl", function ($scope, pollDataHttp, $interval,$location) {
+﻿app.controller("myNeedsCtrl", function ($scope) {
+
+
+    console.log("sds");
+
+
+
+
+});
+
+
+app.controller("needsCtrl", function ($scope, pollDataHttp, $interval, $location) {
 
     $scope.categories = [
         {
@@ -116,6 +127,6 @@
         $location.url("/needs/" + uniqId);
     }
     $scope.goToProdCat=function(id){
-        $location.url("/brands/" + id);
+        $location.url("/myNeeds");
     }
 });

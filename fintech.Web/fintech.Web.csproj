@@ -187,6 +187,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Capture.PNG" />
     <Content Include="Content\index\images\account_white.svg" />
     <Content Include="Content\index\images\camera_white.svg" />
     <Content Include="Content\index\images\explore_white.svg" />
@@ -196,12 +197,15 @@
     <Content Include="Content\index\images\startpoll.png" />
     <Content Include="Content\index\images\tapAndPlay_white.svg" />
     <Content Include="Content\index\images\timelapse.svg" />
+    <Content Include="Content\index\images\Untitled.png" />
     <Content Include="Content\index\index.css">
       <DependentUpon>index.less</DependentUpon>
     </Content>
     <Content Include="Content\index\index.min.css">
       <DependentUpon>index.css</DependentUpon>
     </Content>
+    <Content Include="Content\merchantDetails.PNG" />
+    <Content Include="Content\merchants.PNG" />
     <Content Include="Content\needs\images\air.jpg" />
     <Content Include="Content\needs\images\clothes.jpg" />
     <Content Include="Content\needs\images\favorite.svg" />
@@ -219,6 +223,7 @@
     <Content Include="Content\tempImages\temp1.jpg" />
     <Content Include="Content\tempImages\temp2.jpg" />
     <Content Include="Content\tempImages\yolo.JPG" />
+    <Content Include="Content\Untitled.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -229,14 +234,22 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\app\brands\brandsMerchants.html" />
+    <Content Include="Scripts\app\brands\brandsMerchantsDetail.html" />
+    <Content Include="Scripts\app\brands\brands.html" />
+    <Content Include="Scripts\app\brands\brandsCtrl.js" />
+    <Content Include="Scripts\app\brands\brandsMerchantsCtrl.js" />
+    <Content Include="Scripts\app\brands\brandsMerchantsDetailCtrl.js" />
     <Content Include="Scripts\app\index\directives\poll.html" />
     <Content Include="Scripts\app\index\directives\poll.js" />
     <Content Include="Scripts\app\index\index.html" />
     <Content Include="Scripts\app\index\indexCtrl.js" />
+    <Content Include="Scripts\app\needs\myNeeds.html" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
     <Content Include="Scripts\app\referral\checkout.js" />
     <Content Include="Scripts\app\referral\checkout.html" />
+    <Content Include="Scripts\app\referral\referralDetail.html" />
     <Content Include="Scripts\app\referral\referralList.html" />
     <Content Include="Scripts\app\referral\referralList.js" />
     <Content Include="Scripts\app\services\pollDataHttp.js" />

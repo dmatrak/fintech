@@ -8,6 +8,10 @@
         when('/poll/:id', {
             templateUrl: '../scripts/app/poll/poll.html',
             controller: 'pollCtrl'
+        })
+        .when('/myNeeds', {
+            templateUrl: '../scripts/app/needs/myNeeds.html',
+            controller: 'myNeedsCtrl'
         }).
         when('/needs', {
             templateUrl: '../scripts/app/needs/needs.html',
@@ -21,10 +25,25 @@
             templateUrl: '../scripts/app/referral/referralList.html',
             controller: 'referralListCtrl'
         }).
+         when('/referrals/:referallId', {
+             templateUrl: '../scripts/app/referral/referralDetail.html',
+             controller: 'referralsDetailCtrl'
+         }).
+         when('/referrals/:referallId/:checkoutId', {
+             templateUrl: '../scripts/app/referral/checkout.html',
+             controller: 'checkout'
+         }).
         when('/brands', {
             templateUrl: '../scripts/app/brands/brands.html',
             controller: 'brandsCtrl'
         }).
+         when('/brands/brandsMerchants/:id', {
+             templateUrl: '../scripts/app/brands/brandsMerchants.html',
+             controller: 'brandsMerchantsCtrl'
+         }).
+         when('/brands/brandsMerchants/:id/:merchantID', {
+             templateUrl: '../scripts/app/brands/brandsMerchantsDetail.html'
+         }).
         when('/wishlist', {
             templateUrl: '../scripts/app/wishlist/wishlist.html',
             controller: 'wishlistCtrl'
@@ -44,6 +63,7 @@
             templateUrl: '../scripts/app/profile/profile.html',
             controller: 'profileCtrl'
         }).
+
 
     otherwise({
         redirectTo: '/'

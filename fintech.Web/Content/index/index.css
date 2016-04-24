@@ -26,6 +26,10 @@
     transform: scale3d(1, 1, 1);
   }
 }
+.brand-selection {
+    position: fixed;
+
+}
 .logo {
   background-color: #5FB9AD;
   font-size: 4vh;
@@ -33,12 +37,16 @@
   color: white;
 }
 .actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #5A6362;
-  padding: 5px;
-  color: white;
+       position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A6362;
+    padding: 5px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .actions .action-block {
   text-align: center;
