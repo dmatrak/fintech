@@ -218,6 +218,7 @@
     </Content>
     <Content Include="Content\tempImages\temp1.jpg" />
     <Content Include="Content\tempImages\temp2.jpg" />
+    <Content Include="Content\tempImages\yolo.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
