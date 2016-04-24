@@ -2,5 +2,9 @@
   {
     "outputFile": "Content/index/index.css",
     "inputFile": "Content/index/index.less"
+  },
+  {
+    "outputFile": "Content/needs/needs.css",
+    "inputFile": "Content/needs/needs.less"
   }
 ]

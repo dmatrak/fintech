@@ -31,15 +31,17 @@ namespace fintech.Web
             bundles.Add(new ScriptBundle("~/bundles/app")
                 .Include("~/Scripts/underscore.js")
                 .Include("~/Scripts/app/app.js")
+                .Include("~/Scripts/app/services/pollDataHttp.js")
                 .Include("~/Scripts/app/index/indexCtrl.js")
-                .Include("~/Scripts/app/index/services/pollDataHttp.js")
                 .Include("~/Scripts/app/index/directives/poll.js")
+                .Include("~/Scripts/app/needs/needsCtrl.js")
                 );
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/index/index.css"
+                      "~/Content/index/index.css",
+                      "~/Content/needs/needs.css"
                       ));
         }
     }

@@ -45,3 +45,9 @@
         redirectTo: '/'
     });
 }]);
+
+app.controller("mainCtrl", function ($scope, $location) {
+    $scope.goTo = function (section) {
+        $location.url("/" + section);
+    }
+})

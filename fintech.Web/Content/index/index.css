@@ -35,17 +35,41 @@
 .logo .logo-lbl {
   padding-left: 20px;
 }
-.index {
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5A6362;
+  padding: 5px;
   color: white;
 }
-.index .icn {
+.actions .action-block {
+  text-align: center;
+  width: 20%;
+}
+.actions .action-block .icn.home-white {
+  margin: 0 auto;
+}
+.actions .action-block .icn.account-white {
+  margin: 0 auto;
+}
+.actions .action-block .icn.explore-white {
+  margin: 0 auto;
+}
+.actions .action-block .icn.camera-white {
+  margin: 0 auto;
+}
+.actions .action-block .icn.tap-and-play-white {
+  margin: 0 auto;
+}
+.icn {
   display: block;
   width: 25px;
   height: 25px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.index .icn.pulse {
+.icn.pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
   -webkit-animation-duration: 1s;
@@ -54,23 +78,26 @@
   animation-fill-mode: both;
   animation: pulse 1s linear infinite;
 }
-.index .icn.timelapse {
+.icn.timelapse {
   background-image: url('images/timelapse.svg');
 }
-.index .icn.home-white {
+.icn.home-white {
   background-image: url('images/home_white.svg');
 }
-.index .icn.account-white {
+.icn.account-white {
   background-image: url('images/account_white.svg');
 }
-.index .icn.explore-white {
+.icn.explore-white {
   background-image: url('images/explore_white.svg');
 }
-.index .icn.camera-white {
+.icn.camera-white {
   background-image: url('images/camera_white.svg');
 }
-.index .icn.tap-and-play-white {
+.icn.tap-and-play-white {
   background-image: url('images/tapAndPlay_white.svg');
+}
+.index {
+  color: white;
 }
 .index .poll {
   position: relative;
@@ -143,30 +170,4 @@
 }
 .index .referra-sections .start-poll .start-poll-img {
   width: 80px;
-}
-.index .actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #5A6362;
-  padding: 5px;
-}
-.index .actions .action-block {
-  text-align: center;
-  width: 20%;
-}
-.index .actions .action-block .icn.home-white {
-  margin: 0 auto;
-}
-.index .actions .action-block .icn.account-white {
-  margin: 0 auto;
-}
-.index .actions .action-block .icn.explore-white {
-  margin: 0 auto;
-}
-.index .actions .action-block .icn.camera-white {
-  margin: 0 auto;
-}
-.index .actions .action-block .icn.tap-and-play-white {
-  margin: 0 auto;
 }

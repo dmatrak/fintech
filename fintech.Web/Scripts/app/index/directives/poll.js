@@ -16,7 +16,7 @@
         $scope.remainingTime = 0;
 
         var data = [];
-        pollDataHttp.getMyFriendsPolls({}).then(
+        pollDataHttp.getCurrentPolls({}).then(
             function (resp) {
                 $scope.pollData = resp;
             },

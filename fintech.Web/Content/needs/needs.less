@@ -1,0 +1,65 @@
+﻿.needs {
+    .current-polls {
+        background-color: #3D8F83;
+        color: white;
+        padding: 10px 0;
+        height: 30vh;
+
+        .cp-list {
+            list-style: none;
+            padding: 0;
+            max-height: 20vh;
+            overflow: auto;
+
+            .cp-item {
+                height: 10vh;
+                padding: 5px;
+                color: black;
+                background-color: white;
+                box-shadow: black 0 1px 4px;
+
+                .cp-prof {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .poll-list {
+        list-style: none;
+        padding: 0;
+        height: 54vh;
+        overflow: auto;
+
+        .pl-item {
+            height: 13vh;
+            padding: 5px;
+            color: black;
+            background-color: white;
+            box-shadow: black 0 1px 4px;
+            .pli-text{
+                margin-top:calc(~"10% - 10px");
+            }
+            .icn {
+                width:7vh;
+                height:7vh;
+                margin-top:10px;
+                &.fashion {
+                    background-image: url('images/clothes.jpg');
+                }
+
+                &.travel {
+                    background-image: url('images/air.jpg');
+                }
+
+                &.technology {
+                    background-image: url('images/technology.jpg');
+                }
+
+                &.fd {
+                    background-image: url('images/food.png');
+                }
+            }
+        }
+    }
+}

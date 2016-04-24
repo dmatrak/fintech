@@ -1,10 +1,10 @@
-﻿app.controller("indexCtrl", function ($scope,$location) {
+﻿app.controller("indexCtrl", function ($scope, $location) {
     $scope.data = {
         searchResult: {},
-        pollData:{},
+        pollData: {},
         needs: {
             title: "Needs",
-            items:250
+            items: 250
         },
         referrals: {
             title: "Referrals",

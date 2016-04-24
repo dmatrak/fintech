@@ -1,5 +1,4 @@
-﻿
-@-webkit-keyframes pulse {
+﻿@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
@@ -45,53 +44,86 @@
     }
 }
 
-.index {
-    color: white;
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A6362;
+    padding: 5px;
+    color:white;
+    .action-block {
+        text-align: center;
+        width: 20%;
 
-    .icn {
-        display: block;
-        width: 25px;
-        height: 25px;
-        background-size: 100%;
-        background-repeat: no-repeat;
+        .icn {
+            &.home-white {
+                margin: 0 auto;
+            }
 
-        &.pulse {
-            -webkit-animation-name: pulse;
-            animation-name: pulse;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-            animation: pulse 1s linear infinite;
+            &.account-white {
+                margin: 0 auto;
+            }
+
+            &.explore-white {
+                margin: 0 auto;
+            }
+
+            &.camera-white {
+                margin: 0 auto;
+            }
+
+            &.tap-and-play-white {
+                margin: 0 auto;
+            }
         }
+    }
+}
 
+.icn {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
-        &.timelapse {
-            background-image: url('images/timelapse.svg');
-        }
-
-        &.home-white {
-            background-image: url('images/home_white.svg');
-        }
-
-        &.account-white {
-            background-image: url('images/account_white.svg');
-        }
-
-        &.explore-white {
-            background-image: url('images/explore_white.svg');
-        }
-
-        &.camera-white {
-            background-image: url('images/camera_white.svg');
-        }
-
-        &.tap-and-play-white {
-            background-image: url('images/tapAndPlay_white.svg');
-        }
+    &.pulse {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation: pulse 1s linear infinite;
     }
 
 
+    &.timelapse {
+        background-image: url('images/timelapse.svg');
+    }
+
+    &.home-white {
+        background-image: url('images/home_white.svg');
+    }
+
+    &.account-white {
+        background-image: url('images/account_white.svg');
+    }
+
+    &.explore-white {
+        background-image: url('images/explore_white.svg');
+    }
+
+    &.camera-white {
+        background-image: url('images/camera_white.svg');
+    }
+
+    &.tap-and-play-white {
+        background-image: url('images/tapAndPlay_white.svg');
+    }
+}
+
+.index {
+    color: white;
 
     .poll {
         position: relative;
@@ -175,41 +207,6 @@
 
             .start-poll-img {
                 width: 80px;
-            }
-        }
-    }
-
-    .actions {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #5A6362;
-        padding: 5px;
-
-        .action-block {
-            text-align: center;
-            width: 20%;
-
-            .icn {
-                &.home-white {
-                    margin: 0 auto;
-                }
-
-                &.account-white {
-                    margin: 0 auto;
-                }
-
-                &.explore-white {
-                    margin: 0 auto;
-                }
-
-                &.camera-white {
-                    margin: 0 auto;
-                }
-
-                &.tap-and-play-white {
-                    margin: 0 auto;
-                }
             }
         }
     }
