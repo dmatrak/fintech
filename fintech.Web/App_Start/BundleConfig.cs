@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace fintech.Web
 {
@@ -23,9 +22,29 @@ namespace fintech.Web
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/angular")
+                .Include("~/Scripts/angular.js")
+                .Include("~/Scripts/angular-route.js")
+                .Include("~/Scripts/angular-mocks.js")
+                );
+
+            bundles.Add(new ScriptBundle("~/bundles/app")
+                .Include("~/Scripts/underscore.js")
+                .Include("~/Scripts/app/app.js")
+                .Include("~/Scripts/app/services/pollDataHttp.js")
+                .Include("~/Scripts/app/services/userProfile.js")
+                .Include("~/Scripts/app/index/indexCtrl.js")
+                .Include("~/Scripts/app/index/directives/poll.js")
+                .Include("~/Scripts/app/needs/needsCtrl.js")
+                .Include("~/Scripts/app/needs/needDetailsCtrl.js")
+                );
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/index/index.css",
+                      "~/Content/needs/needs.css"
+                      ));
         }
     }
 }

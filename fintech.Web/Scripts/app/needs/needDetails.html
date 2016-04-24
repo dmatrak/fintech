@@ -1,0 +1,31 @@
+﻿<div class="row needs-details">
+    <div class="row d-header">
+        <span class="col-xs-8" style="margin-top:10px;">
+            {{details.owner}}'s Poll
+        </span>
+        <i class="pull-left icn timelapse pulse" style="margin-top:10px;"></i>
+        <span class="col-xs-3 pull-left" style="margin-top:10px;">{{details.remainingTime|date:"mm:ss"}}</span>
+    </div>
+    <div class="row details-item">
+        <img class="di-image" ng-src="{{details.imgUrl}}"/>
+    </div>
+    <div class="row details-message">
+        <div class="d-prof col-xs-2">
+            <img class="d-pic" ng-src="{{details.profPicUrl}}" />
+        </div>
+        <div class="d-message col-xs-12">
+            {{details.message}}
+        </div>
+    </div>
+    <div class="row details-actions">
+        <div style="padding:0 20px" ng-click="thumbsUp()">
+            <i class="icn thumbs-up"></i>
+        </div>
+        <div style="padding:0 20px" ng-click="addToWishList()">
+            <i class="icn wishlist"></i>
+        </div>
+        <div style="padding:0 20px">
+            <i class="icn thumbs-down" ng-click="thumbsDown()"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+﻿<div class="row" ng-click="goToPoll(display.id)">
+    <div  class="poll-image">
+        <img  class="poll-image-dim" ng-src="{{display.imgUrl}}" />
+    </div>
+    <div class="poll-cta">
+        <div class="poll-cta-owner">Vote {{display.owner}}'s poll</div>
+        <div class="poll-cta-timer">
+            <i class="icn timelapse pulse pull-left"></i>
+            {{remainingTime|date:"mm:ss"}}
+        </div>
+    </div>
+</div>
