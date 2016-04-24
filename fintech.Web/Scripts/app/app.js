@@ -18,8 +18,8 @@
             controller: 'needDetailsCtrl'
         }).
         when('/referrals', {
-            templateUrl: '../scripts/app/referrals/referrals.html',
-            controller: 'referralsCtrl'
+            templateUrl: '../scripts/app/referrals/referralsList.html',
+            controller: 'referralsListCtrl'
         }).
         when('/brands', {
             templateUrl: '../scripts/app/brands/brands.html',

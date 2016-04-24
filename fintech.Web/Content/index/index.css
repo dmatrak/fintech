@@ -29,11 +29,8 @@
 .logo {
   background-color: #5FB9AD;
   font-size: 4vh;
-  height: 5vh;
+  height: 10vh;
   color: white;
-}
-.logo .logo-lbl {
-  padding-left: 20px;
 }
 .actions {
   display: flex;
@@ -107,8 +104,8 @@
   text-align: center;
 }
 .index .poll .poll-image .poll-image-dim {
-  width: 46vh;
-  height: 46vh;
+  width: 40vh;
+  height: 40vh;
 }
 .index .poll .poll-cta {
   position: absolute;
