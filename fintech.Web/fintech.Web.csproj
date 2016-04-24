@@ -234,6 +234,8 @@
     <Content Include="Scripts\app\index\indexCtrl.js" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
+    <Content Include="Scripts\app\referral\checkout.js" />
+    <Content Include="Scripts\app\referral\checkout.html" />
     <Content Include="Scripts\app\referral\referralList.html" />
     <Content Include="Scripts\app\referral\referralList.js" />
     <Content Include="Scripts\app\services\pollDataHttp.js" />
