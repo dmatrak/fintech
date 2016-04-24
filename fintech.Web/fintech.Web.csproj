@@ -233,6 +233,8 @@
     <Content Include="Scripts\app\index\indexCtrl.js" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
+    <Content Include="Scripts\app\referral\referralList.html" />
+    <Content Include="Scripts\app\referral\referralList.js" />
     <Content Include="Scripts\app\services\pollDataHttp.js" />
     <Content Include="Scripts\app\needs\needs.html" />
     <Content Include="Scripts\app\needs\needsCtrl.js" />
@@ -255,6 +257,8 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\needs\needs.less" />
+    <None Include="Properties\PublishProfiles\referra - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\referra - Web Deploy %282%29.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />

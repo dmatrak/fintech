@@ -81,14 +81,14 @@
 .icn.timelapse {
   background-image: url('images/timelapse.svg');
 }
-.icn.home-white {
-  background-image: url('images/home_white.svg');
-}
+    .icn.home-white {
+        background-image: url('./Content/index/images/home_white.svg');
+    }
 .icn.account-white {
   background-image: url('images/account_white.svg');
 }
 .icn.explore-white {
-  background-image: url('images/explore_white.svg');
+  background-image: url('~/Content/index/home_white.svg');
 }
 .icn.camera-white {
   background-image: url('images/camera_white.svg');
