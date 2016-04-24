@@ -37,6 +37,7 @@ namespace fintech.Web
                 .Include("~/Scripts/app/index/directives/poll.js")
                 .Include("~/Scripts/app/needs/needsCtrl.js")
                 .Include("~/Scripts/app/needs/needDetailsCtrl.js")
+                .Include("~/Scripts/app/referral/referralListCtrl.js")
                 );
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

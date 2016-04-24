@@ -1,31 +1,15 @@
-﻿<div class="row needs-details">
-    <div class="row d-header">
-        <span class="col-xs-8" style="margin-top:10px;">
-            {{details.owner}}'s Poll
-        </span>
-        <i class="pull-left icn timelapse pulse" style="margin-top:10px;"></i>
-        <span class="col-xs-3 pull-left" style="margin-top:10px;">{{details.remainingTime|date:"mm:ss"}}</span>
+﻿<div class="row needs">
+
+    <div class="row">
+        <ul class="poll-list">
+            <li ng-repeat="poll in pollsPerCategory">
+                <div class="pl-item" ng-click="goToProdCat(poll.id)">
+                    <i class="icn pull-left" ng-class="{'fashion':poll.id===1,'travel':poll.id===2,'technology':poll.id===3,'fd':poll.id===4}"></i>
+                    <span class="col-xs-7 pli-text">{{poll.title}}</span>
+                    <span class="col-xs-2 pull-right pli-text">{{poll.total}}</span>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div class="row details-item">
-        <img class="di-image" ng-src="{{details.imgUrl}}"/>
-    </div>
-    <div class="row details-message">
-        <div class="d-prof col-xs-2">
-            <img class="d-pic" ng-src="{{details.profPicUrl}}" />
-        </div>
-        <div class="d-message col-xs-12">
-            {{details.message}}
-        </div>
-    </div>
-    <div class="row details-actions">
-        <div style="padding:0 20px" ng-click="thumbsUp()">
-            <i class="icn thumbs-up"></i>
-        </div>
-        <div style="padding:0 20px" ng-click="addToWishList()">
-            <i class="icn wishlist"></i>
-        </div>
-        <div style="padding:0 20px">
-            <i class="icn thumbs-down" ng-click="thumbsDown()"></i>
-        </div>
-    </div>
+
 </div>
