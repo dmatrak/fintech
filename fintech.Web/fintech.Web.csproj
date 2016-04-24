@@ -224,12 +224,14 @@
       <DependentUpon>needs.css</DependentUpon>
     </Content>
     <Content Include="Content\nice.PNG" />
+    <Content Include="Content\prof.PNG" />
     <Content Include="Content\scan_QR.jpg" />
     <Content Include="Content\sendReferral.PNG" />
     <Content Include="Content\social.PNG" />
     <Content Include="Content\tempImages\temp1.jpg" />
     <Content Include="Content\tempImages\temp2.jpg" />
     <Content Include="Content\tempImages\yolo.JPG" />
+    <Content Include="Content\twitter-icon.png" />
     <Content Include="Content\Untitled.png" />
     <Content Include="Content\yolo.jpg" />
     <Content Include="favicon.ico" />
@@ -261,6 +263,7 @@
     <Content Include="Scripts\app\needs\myNeeds.html" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
+    <Content Include="Scripts\app\prof\profile.html" />
     <Content Include="Scripts\app\receipt\receipt.html" />
     <Content Include="Scripts\app\receipt\receiptCtrl.js" />
     <Content Include="Scripts\app\referral\checkout.js" />

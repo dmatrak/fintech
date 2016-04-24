@@ -63,8 +63,7 @@
             templateUrl: '../scripts/app/tapAndPlay/tapAndPlay.html',
             controller: 'tapAndPlayCtrl'
         }).when('/profile', {
-            templateUrl: '../scripts/app/profile/profile.html',
-            controller: 'profileCtrl'
+            templateUrl: '../scripts/app/prof/profile.html',
         }).
         when('/send', {
             templateUrl: '../scripts/app/camera/send.html',

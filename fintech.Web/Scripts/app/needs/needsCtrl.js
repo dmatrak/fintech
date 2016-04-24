@@ -47,7 +47,7 @@ app.controller("needsCtrl", function ($scope, pollDataHttp, $interval, $location
                 $scope.currentPolls = [{
                     uniqId:100,
                     catId: 3,
-                    owner: "Mitsos",
+                    owner: "Jennifer",
                     startDate: startDate,
                     endDate: endDate,
                     remainingTime: endDate - startDate,

@@ -27,7 +27,7 @@
                 endDate.setMinutes(startDate.getMinutes()+1);
                 $scope.pollData = [{
                     id:"1",
-                    owner: "Mitsos",
+                    owner: "Mark",
                     startDate: startDate,
                     endDate: endDate,
                     remainingTime: endDate - startDate,
