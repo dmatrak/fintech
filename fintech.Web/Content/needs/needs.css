@@ -101,6 +101,6 @@
 }
 .needs-details .details-actions .icn.wishlist {
   background-image: url('images/favorite.svg');
-  width: 8vh;
-  height: 8vh;
+  width: 4vh;
+  height: 4vh;
 }
