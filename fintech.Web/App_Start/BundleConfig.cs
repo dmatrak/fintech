@@ -42,6 +42,8 @@ namespace fintech.Web
                  .Include("~/Scripts/app/brands/brandsCtrl.js")
                   .Include("~/Scripts/app/brands/brandsMerchantsCtrl.js")
                    .Include("~/Scripts/app/brands/brandsMerchantsDetailCtrl.js")
+                   .Include("~/Scripts/app/login/loginCtrl.js")
+                   .Include("~/Scripts/app/camera/camera.js")
                 );
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

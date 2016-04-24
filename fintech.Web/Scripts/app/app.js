@@ -1,7 +1,7 @@
 ﻿var app = angular.module("app", ["ngRoute"])
 .config(["$routeProvider", function ($routeProvider) {
     $routeProvider.
-        when('/', {
+        when('/home', {
             templateUrl: '../scripts/app/index/index.html',
             controller: 'indexCtrl'
         }).
@@ -63,9 +63,15 @@
             templateUrl: '../scripts/app/profile/profile.html',
             controller: 'profileCtrl'
         }).
+        when('/camera', {
+            templateUrl: '../scripts/app/camera/camera.html',
+            controller: 'cameraCtrl'
+        }).when('/', {
+            templateUrl: '../scripts/app/login/login.html',
+            controller: 'loginCtrl'
+        })
 
-
-    otherwise({
+    .otherwise({
         redirectTo: '/'
     });
 }]);

@@ -1,9 +1,9 @@
 ﻿app.service("userProfile", function () {
 
-    var id = Math.random();
+    var user ={ email:Math.random()}
     
     return {
-        id:id
+        user: user
     }
 
 })

@@ -220,6 +220,9 @@
     <Content Include="Content\needs\needs.min.css">
       <DependentUpon>needs.css</DependentUpon>
     </Content>
+    <Content Include="Content\nice.PNG" />
+    <Content Include="Content\scan_QR.jpg" />
+    <Content Include="Content\social.PNG" />
     <Content Include="Content\tempImages\temp1.jpg" />
     <Content Include="Content\tempImages\temp2.jpg" />
     <Content Include="Content\tempImages\yolo.JPG" />
@@ -240,10 +243,14 @@
     <Content Include="Scripts\app\brands\brandsCtrl.js" />
     <Content Include="Scripts\app\brands\brandsMerchantsCtrl.js" />
     <Content Include="Scripts\app\brands\brandsMerchantsDetailCtrl.js" />
+    <Content Include="Scripts\app\camera\camera.html" />
+    <Content Include="Scripts\app\camera\camera.js" />
     <Content Include="Scripts\app\index\directives\poll.html" />
     <Content Include="Scripts\app\index\directives\poll.js" />
     <Content Include="Scripts\app\index\index.html" />
     <Content Include="Scripts\app\index\indexCtrl.js" />
+    <Content Include="Scripts\app\login\login.html" />
+    <Content Include="Scripts\app\login\loginCtrl.js" />
     <Content Include="Scripts\app\needs\myNeeds.html" />
     <Content Include="Scripts\app\needs\needDetails.html" />
     <Content Include="Scripts\app\needs\needDetailsCtrl.js" />
